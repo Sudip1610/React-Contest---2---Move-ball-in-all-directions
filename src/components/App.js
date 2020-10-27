@@ -13,6 +13,7 @@ const App = () => {
   const reset = () => {
     let curX = 0;
     let curY = 0;
+    setRenderBall(false);
     setX(curX);
     setY(curY);
     setBallPosition({ left: `${curX}px`, top: `${curY}px` });
